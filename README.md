@@ -1,13 +1,10 @@
-Here’s a structured README file for your project:
-
-```markdown
 # Fine-Tuning GPT-Neo for Text Classification and Generation
 
 This project demonstrates the fine-tuning of the GPT-Neo model for a combined text classification and generation task. Using the Hugging Face `transformers` library, we train a pre-trained GPT-Neo model on a custom dataset to classify text and generate new content based on the input data. The dataset used for this project includes multiple text samples labeled for classification purposes, and the model is fine-tuned to predict the labels as well as generate relevant content based on these inputs.
 
 ## Project Structure
 
-```
+```markdown
 ├── data/
 │   ├── train.csv        # Training dataset
 │   ├── test.csv         # Test dataset
@@ -18,19 +15,8 @@ This project demonstrates the fine-tuning of the GPT-Neo model for a combined te
 ├── README.md            # Project documentation
 └── requirements.txt     # Required Python libraries and dependencies
 ```
-
-## Prerequisites
-
-Before you start, make sure you have the following installed:
-
-- Python 3.x
-- Pip package manager
-
-Install required dependencies via the `requirements.txt` file:
-
-```
-pip install -r requirements.txt
-```
+## Project Architecture : 
+![Project Architecture](attachment:d17ee219-0e33-492f-a417-1359bfa93ae0.png)
 
 ## Dataset
 
