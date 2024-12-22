@@ -16,7 +16,7 @@ This project demonstrates the fine-tuning of the GPT-Neo model for a combined te
 └── requirements.txt     # Required Python libraries and dependencies
 ```
 ## Project Architecture : 
-![Project Architecture](attachment:d17ee219-0e33-492f-a417-1359bfa93ae0.png)
+![Project Architecture](assets/architecture.png)
 
 ## Dataset
 
